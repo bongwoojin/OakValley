@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" width="device-width" user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0>
+
+    <title>Oak Valley</title>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4811709205.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    
+ 
+    
+
+
+
+</head>
+<body>
+    <!--wrap-->
+    <div class="wrap">
+        <!--헤더영역-->
+        <header>
+            <!--헤더 로고-->
+            <div class="header_logo">
+                <h1><a href="#" title="홈"></a></h1>
+            </div>
+            <!--헤더 네비-->
+            <div class="header_nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">소개</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">오크밸리 소개</a></li>
+                                <li><a href="#">오크밸리 소식</a></li>
+                                <li><a href="#">제휴 리조트</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">객실</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">객실 가이드</a></li>
+                                <li><a href="#">객실 요금</a></li>
+                                <li><a href="#">패키지</a></li>
+                                <li><a href="#">골프 빌리지</a></li>
+                                <li><a href="#">스키 빌리지</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">다이닝</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">골프 빌리지</a></li>
+                                <li><a href="#">스키 빌리지</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">부대시설</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">골프 빌리지</a></li>
+                                <li><a href="#">스키 빌리지</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">액티비티</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">골프 빌리지</a></li>
+                                <li><a href="#">스키 빌리지</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">산책로</a>
+                            
+                        </li>
+                        <li><a href="#">골프</a>
+                            
+                        </li>
+                        <li><a href="#">스키</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">스키장 소개</a></li>
+                                <li><a href="#">보드 스쿨</a></li>
+                                <li><a href="#">눈 썰매장</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">연회/웨딩</a>
+                            <ul class="gnb_sub">
+                                <li><a href="#">세미나/연회</a></li>
+                                <li><a href="#">웨딩</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            <!--헤더 좌측 메뉴리스트-->
+            
+                <div class="header_icon">
+                    <ul>
+                        <li class="home"><a href="#" title="홈"></a></li>
+                        <li class="service"><a href="#" title="고객센터"></a></li>
+                        <li class="gnbmenu"><a href="#">MEMBER</a></li>
+                        <li class="gnbmenu"><a href="#">GOLF</a></li>
+                        <li class="side_nav"> <!--사이드 네비-->
+                            <a href="#" class="button"> <!--버튼-->
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                            <div class="fullnav"> <!--풀페이지 네비-->
+                                <div class="fullnav_header">
+                                    <div class="fullnav_header_logo">
+                                        <h1><a href="#" title="홈"></a></h1>
+                                    </div>
+                                </div>
+                                <div class="fullnav_coment">
+                                    <div class="item">
+                                        <dt class="title">대표전화</dt>
+                                        <dd class="cont">012 - 1234- 5678</dd>
+                                    </div>
+                                    <div class="item">
+                                        <dt class="title">주소</dt>
+                                        <dd class="cont">강원도 원주시 지정면 오크밸리 1길 66</dd>
+                                    </div>
+                                </div>
+
+                                <div class="screen">
+                                    <div class="menu">
+                                        <ul class="menu_list">
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                소개<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">오크밸리 소개</a></li>
+                                                    <li><a href="#">오크밸리 소식</a></li>
+                                                    <li><a href="#">제휴리조트</a></li>
+                                                    <li><a href="#">오시는길</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                객실<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">객실 가이드</a></li>
+                                                    <li><a href="#">객실 요금</a></li>
+                                                    <li><a href="#">패키지</a></li>
+                                                    <li><a href="#">골프빌리지</a></li>
+                                                    <li><a href="#">스키빌리지</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                다이닝<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">골프빌리지</a></li>
+                                                    <li><a href="#">스키빌리지</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                부대시설<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">골프빌리지</a></li>
+                                                    <li><a href="#">스키빌리지</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                액티비티<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">골프빌리지</a></li>
+                                                    <li><a href="#">스키빌리지</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                산책로<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">산책로</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                골프<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">골프</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                스키<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">공지사항</a></li>
+                                                    <li><a href="#">스키장 소개</a></li>
+                                                    <li><a href="#">스키&보드 스쿨</a></li>
+                                                    <li><a href="#">눈썰매장</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="list_header">
+                                                연회/웨딩<span class="icon"></span>
+                                                </a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#">세미나/연회</a></li>
+                                                    <li><a href="#">웨딩</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            <!--헤더 우측 아이콘-->
+            </div>
+        </header>
+        
+        <!--main fullpage-->
+        <section id="fullpage">
+
+            <!--첫번째 섹션-->
+            <article class="section">
+                <div class="swiper main_swiper"> 
+                    <div class="swiper-wrapper">
+                        <div class="bg_1 swiper-slide"> <!--1번 배경-->
+                            <div class="area">
+                                <div class="title">
+                                    Best Place
+                                </div>
+                                <div class="text">
+                                    최고의 장소
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg_2 swiper-slide"> <!--2번 배경-->
+                            <div class="area">
+                                <div class="title">
+                                    Compotable Rest
+                                </div>
+                                <div class="text">
+                                    편안한 휴식
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg_3 swiper-slide"> <!--3번 배경-->
+                            <div class="area">
+                                <div class="title">
+                                    OAK VALLEY
+                                </div>
+                                <div class="text">
+                                    오크밸리
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </article> 
+            
+            <!--두번째 섹션-->
+            <article class="section">
+                <div class="inner">
+                    <div class="sub_header">
+                        <p>스페셜오퍼</p>
+                        <a href="#"></a>
+                    </div>
+                    <div class="special">
+                        <ul class="content_list">
+                            <li class="content_item">
+                                <div class="content_image a1">
+                                    <a href="#"><img src="img/image1_1.jpg"></a>
+                                    <a href="#"><img src="img/image1_2.jpg"></a>    
+                                </div>
+                                <div class="content z1">
+                                    <a href="">
+                                        <img src="img/image1.jpg">
+                                        <div class="innerbox">다이닝</div>
+                                    </a>
+                                    <div class="info">
+                                        <a href=""><strong>졸업/입학 뷔페 할인 프로모션</strong>
+                                        <span>졸업 입학 시즌을 맞아 가족과 함께 더 밸리 키친에서 특별한 시간을 보내세요.</span></a>
+                                        <p>2023.02.01 ~ 2023.03.31</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="content_item">
+                                <div class="content_image a2">
+                                    <a href="#"><img src="img/image2_1.jpg"></a>
+                                    <a href="#"><img src="img/image2_2.jpg"></a>    
+                                </div>
+                                <div class="content z2">
+                                    <a href="">
+                                    <img src="img/image2.jpg">
+                                    <div class="innerbox">객실</div>
+                                    </a>
+                                    <div class="info">
+                                        <a href=""><strong>프레시 모닝 조식 패키지
+                                        </strong>
+                                        <span>신선한 재료로 준비된 인뎃굿의 조식과 함께 건강한 하루를 시작하세요.</span></a>
+                                        <p>2023.02.01 ~ 2023.03.31</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="content_item">
+                                <div class="content_image a3">
+                                    <a href="#"><img src="img/image4_1.jpg"></a>
+                                    <a href="#"><img src="img/image4_2.jpg"></a>    
+                                </div>
+                                <div class="content z3">
+                                    <a href="">
+                                    <img src="img/image4.jpg">
+                                    <div class="innerbox">객실</div>
+                                    </a>
+                                    <div class="info">
+                                        <a href=""><strong>더 밸리 키친 타파스 프로모션
+                                        </strong>
+                                        <span>더 밸리 키친에서 스페인 요리의 애피타이저, 타파스 프로모션을 선보입니다.</span></a>
+                                        <p>2023.02.01 ~ 2023.03.31</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="content_item">
+                                <div class="content_image a4">
+                                    <a href="#"><img src="img/image3_1.jpg"></a>
+                                    <a href="#"><img src="img/image3_2.jpg"></a>    
+                                </div>
+                                <div class="content z4">
+                                    <a href="">
+                                    <img src="img/image3.jpg">
+                                    <div class="innerbox">객실</div>
+                                    </a>
+                                    <div class="info">
+                                        <a href=""><strong>스키 리프트 패키지
+                                        </strong>
+                                        <span>오크밸리 스키장에서 가족,연인,친구와 함께 올 겨울 빛나는 추억을 만들어보세요.</span></a>
+                                        <p>2023.02.01 ~ 2023.03.31</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <!--세번째 섹션-->
+            <article class="section">
+                <div class="inner">
+                    <div class="sub_header">
+                        <p style="color:black; width:150px;">객실</p>
+                        <a href="#"></a>
+                    </div>
+
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide box01">
+                            <div class="room">
+                                <div class="noble"></div>
+                                <div class="coment">
+                                    <div class="comentbox">
+                                        <strong>Noble</strong>
+                                        <p>세련된 인테리어가 돋보이는
+                                            객실로, 여유있는 공간감을
+                                            만끽할 수 있는 리빙룸,
+                                            침실에서 편안한 휴식을
+                                            즐길 수 있습니다.
+                                        </p>
+                                        <a href="">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide box01">
+                            <div class="room">
+                                <div class="golfroom"></div>
+                                <div class="coment">
+                                    <div class="comentbox">
+                                        <strong>Golf Village</strong>
+                                        <p>사계절 변화하는 대자연의 아름다움과
+                                            골프 코스를 감상하며 힐링 타임을
+                                            즐길 수 있습니다.
+                                        </p>
+                                        <a href="">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide box01">
+                            <div class="room">
+                                <div class="skiroom"></div>
+                                <div class="coment">
+                                    <div class="comentbox">
+                                        <strong>Ski Village</strong>
+                                        <p>창 밖으로 펼쳐지는 그린과 슬로프를
+                                            감상하며 프라이빗한 공간에서 특별한
+                                            휴식을 만끽할 수 있습니다.
+                                        </p>
+                                        <a href="">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+                <div class="swiper-button-prev"><span class="arrow"></span></div>
+                <div class="swiper-button-next"><span class="arrow"></span></div>
+            </article>
+            
+            <!--네번째 섹션-->
+            <article class="section">
+                <div class="bubbles">
+                    <span style="--i:11;"></span>
+                    <span style="--i:12;"></span>
+                    <span style="--i:24;"></span>
+                    <span style="--i:10;"></span>
+                    <span style="--i:14;"></span>
+                    <span style="--i:23;"></span>
+                    <span style="--i:18;"></span>
+                    <span style="--i:16;"></span>
+                    <span style="--i:19;"></span>
+                    <span style="--i:20;"></span>
+                    <span style="--i:22;"></span>
+                    <span style="--i:25;"></span>
+                    <span style="--i:18;"></span>
+                    <span style="--i:21;"></span>
+                    <span style="--i:15;"></span>
+                    <span style="--i:13;"></span>
+                    <span style="--i:26;"></span>
+                    <span style="--i:17;"></span>
+                    <span style="--i:13;"></span>
+                    <span style="--i:28;"></span>
+                    <span style="--i:11;"></span>
+                    <span style="--i:12;"></span>
+                    <span style="--i:24;"></span>
+                    <span style="--i:10;"></span>
+                    <span style="--i:14;"></span>
+                    <span style="--i:23;"></span>
+                    <span style="--i:18;"></span>
+                    <span style="--i:16;"></span>
+                    <span style="--i:19;"></span>
+                    <span style="--i:20;"></span>
+                    <span style="--i:22;"></span>
+                    <span style="--i:25;"></span>
+                    <span style="--i:18;"></span>
+                    <span style="--i:21;"></span>
+                    <span style="--i:15;"></span>
+                    <span style="--i:13;"></span>
+                    <span style="--i:26;"></span>
+                    <span style="--i:17;"></span>
+                    <span style="--i:13;"></span>
+                    <span style="--i:28;"></span>
+                </div>
+                <div class="inner">
+                    <div class="sub_header">
+                        <p style="color:black">액티비티</p>
+                        <a href="#"></a>
+                    </div>
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide img_box">
+                            <img src="img/park.jpg">
+                            <div class="back_info">
+                                <em>놀이동산</em>
+                                <p>전동카, 바이킹, 멀티트램플린, 회전목마,<br> 포크레인 등 유아동을 위한 <br>다양한 놀이시설이 준비되어 있습니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                        </div> 
+
+                          <div class="swiper-slide">
+                            <img src="img/bounce.png">
+                            <div class="back_info">
+                                <em>바운스 어드벤처 파크</em>
+                                <p>바운스 트렘폴린, 레이싱파크 등을 보유한<br> 오크밸리만의 신개념 놀이문화 공간 입니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/sonata.jpg">
+                            <div class="back_info">
+                                <em>소나타 오브 라이트</em>
+                                <p>5가지 테마로 구성된 산책로를 걸으며<br>형형색색의 조명과 골프장 페어웨이를<br>배경으로 펼쳐지는 3D 맵핑쇼 등<br>환상적인 볼거리를 즐겨보세요.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/sculpture.png">
+                            <div class="back_info">
+                                <em>조각공원</em>
+                                <p>국내/외 유명 조각가들의 명작만을 엄선해<br>선보이는 조각공원에서 이국적인 풍광 속<br>예술적 감성을 자극하는 다채로운 작품을<br> 감상할 수 있습니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/star.jpg">
+                            <div class="back_info">
+                                <em>천문공원</em>
+                                <p>천혜의 자연 속 광활한 밤하늘을<br> 가득 채우는 눈부신 별들을 망원경으로<br> 직접 감상할 수 있는 이색적이고<br>특별한 체험을 선사합니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/titlist.png">
+                            <div class="back_info">
+                                <em>타이틀리스트 퍼포먼스 센터</em>
+                                <p>최고 수준의 시스템과 설비로 최대한의<br> 퍼포먼스를 낼 수 있는 최적의 클럽을<br> 찾아드리는 ‘퍼포먼스 피팅‘ 서비스를 제공합니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/swiming.jpg">
+                            <div class="back_info">
+                                <em>인피니트 풀</em>
+                                <p>최고 수준의 시스템과 설비로 최대한의<br> 퍼포먼스를 낼 수 있는 최적의 클럽을<br> 찾아드리는 ‘퍼포먼스 피팅‘ 서비스를 제공합니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/sky.jpg">
+                            <div class="back_info">
+                                <em>스카이 1340</em>
+                                <p>최고 수준의 시스템과 설비로 최대한의<br> 퍼포먼스를 낼 수 있는 최적의 클럽을<br> 찾아드리는 ‘퍼포먼스 피팅‘ 서비스를 제공합니다.</p>
+                                <a href="#" class="plus_1">
+                                    더보기
+                                </a>
+                                <a href="#" class="plus_2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper_arr">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                    
+                </div>
+            </article>
+
+            <!--다섯번째 섹션-->
+            <article class="section">
+
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="inner">
+                    <div class="sub_header">
+                        <p style="color:black">공지사항</p>
+                        <a href="#"></a>
+                    </div>
+
+                    <div class="swiper noticeSwiper">
+                        <ul class="swiper-wrapper notice">
+                          <li class="swiper-slide notice_1">
+                            <span>23.04.21</span>
+                            <em>오크밸리CC 친환경 골프장 BEST 20 선정</em>
+                            <p>오크밸리CC가 한국 10대 회원제 골프장에<br> 이어 2023년 친환경 Best 20 골프장에 선정 되었습니다.</p>
+                            <span class="more">
+                                <a href="#">
+                                    더보기
+                                </a>
+                            </span>
+                          </li>
+                          <li class="swiper-slide notice_1">
+                            <span>23.04.15</span>
+                            <em>2023년 오크밸리CC, 오크힐스CC주중 예약일정 변경 안내</em>
+                            <p>회원님의 편의를 위하여 2023년 오크밸리CC,<br> 오크힐스CC의 주중 및 주말 예약 일정을 통합하여 운영하오니 고객님의 많은 양해 부탁드립니다.</p>
+                            <span class="more">
+                                <a href="#">
+                                    더보기
+                                </a>
+                            </span>    
+                          </li>
+                          <li class="swiper-slide notice_1">
+                            <span>23.04.10</span>
+                            <em>오크밸리 골프장 임시 휴장 안내</em>
+                            <p>최상의 그린 품질을 위하여 그린 통기작업<br> (Green Aeration) 및 코스 보수공사를 실시하고자 임시 휴장을 진행합니다. </p>
+                            <span class="more">
+                                <a href="#">
+                                    더보기
+                                </a>
+                            </span>
+                          </li>
+                          <li class="swiper-slide notice_1">
+                            <span>23.04.02</span>
+                            <em>오크밸리 C.C. 10대 회원제 골프장 선정</em>
+                            <p>오크밸리 C.C.가 서울경제 서경 골프먼슬리 선정<br> '한국 10대 회원제 골프장'에 선정 되었습니다</p>
+                            <span class="more">
+                                <a href="#">
+                                    더보기
+                                </a>
+                            </span>
+                          </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                    <div class="eventbox">
+                        <a href="#" class="wedding">
+                            <em>웨딩</em>
+                        </a>
+                        <a href="#" class="semina">
+                            <em>세미나</em>
+                        </a>
+                        <a href="#" class="party">
+                            <em>행사</em>
+                        </a>
+                    </div>    
+                </div>
+            </article>
+
+            <!--푸터-->
+            <footer class="section fp-auto-height">
+                <div class="footer_wrap">
+                    <div class="footer_logo"><img src="img/logo.png"></div>
+                    <ul class="footer_list">
+                        <li><a class="first" href="">Location</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">채용정보</a></li>
+                        <li><a href="">오시는길</a></li>
+                        <li><a href="">영상정보처리방침</a></li>
+                        <li><a href="">이메일무단수집금지</a></li>
+                    </ul>
+                    <div class="footer_address">
+                        <em>오크밸리HDC리조트㈜ 강원도 원주시 지정면 오크밸리 1길 66</em>
+                        <em>Tel.012-1234-5678</em> 
+                        <em>Fax.012-1234-5678</em>
+                        <em>Email.bwj1993@naver.com</em>
+                    </div>
+                    <div class="footer_address">
+                        <em>CEO.봉우진</em>
+                        <em>사업자등록번호.012-1234-1234</em>
+                    </div>
+                    <div class="footer_end">
+                        <em>Copyright © OAK VALLEY. All Rights Reserved.</em>
+                    </div>
+                </div>
+            </footer>
+        </section>   
+    </div>
+
+    <!--탑 버튼-->
+    <a href="#first" class="go_top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!--SNS 버튼-->
+    <a href="#" class="sns_plus">
+        <span></span>
+        <span></span>
+    </a>
+
+    <!--SNS 아이콘-->
+    <div class="sns_icon">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+
+    <!--마우스 스크롤 애니메이션-->
+    <div class="scroll-down">
+    </div>
+
+</body>
+</html>
