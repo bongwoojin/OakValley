@@ -71,10 +71,10 @@ $(function(){
     /*첫번째 섹션 - 스와이퍼1*/
     var swiper1 = new Swiper(".main_swiper", {
 
-        /*autoplay:{
+        autoplay:{
           delay: 2500,
           disableOnInteraction: false,
-        },*/
+        },
         
         loop: true,
 
@@ -145,10 +145,10 @@ $(function(){
             
         speed: 1500,
 
-          /*autoplay: {
+          autoplay: {
           delay: 3000,
           disableOnInteraction: false,
-        },*/
+        },
             
         pagination: {
           el: ".swiper-pagination",
